@@ -2,13 +2,33 @@
 
 ## Pre-Requisites
 
+### Install VS Code
+
+1. Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and select **Download for Windows**.
+
+2. Double click the executable to launch the Visual Studio Code installer.
+
+3. Complete the Visual Studio Code installation.
+
+    I recommend checking all of the Other options in the **Select Additional Tasks** step.
+
+    ![](/images/08202024-vs-code-options.png)
+
 ### Install PHP
 
 1. Go to [https://windows.php.net/download](https://windows.php.net/download) and download the latest **VS16 x64 Non Thread Safe** ZIP file.
 
 2. Extract the contents of the ZIP file. I usually create a folder in the system drive, like: `C:\.php` 
 
-    - **Important:** You will need the folder filepath (i.e., `C:\.php`) when [setting your environment variables](#update-environment-variables).
+    > **IMPORTANT:** You will need the folder filepath (i.e., `C:\.php`) when [setting your environment variables](#update-environment-variables).
+
+### Install Composer
+
+1. Go to [https://getcomposer.org/download/](https://getcomposer.org/download/) and download the **Composer-Setup.exe** in the Windows Installer section.
+
+2. Double click the executable to launch the Composer installer.
+
+3. Complete the Composer installation using default settings.
 
 ### Install MariaDB / HeidiSQL
 
@@ -18,7 +38,7 @@
 
 3. Complete the MariaDB installation using default settings. Record the **root user password** and the **data directory**, you will need them during later steps.
 
-    - **Important:** You will need the password of your root user for [setting up your database](), and the data directory for [setting your environment variables](#update-environment-variables).
+    > **IMPORTANT:** You will need the password of your root user for [setting up your database](), and the data directory for [setting your environment variables](#update-environment-variables).
 
 ### Update Environment Variables 
 
@@ -38,7 +58,8 @@
 
 7. Open the **Terminal** application. This can be found in Windows search, or by entering `cmd` into the **Run** dialog.
 
-8. Verify the environment variables are configured correctly, but entering the following commands:
+8. Verify the environment variables are configured correctly by entering the following commands:
 
     - `php -v`
+    - `composer --version`
     - `mysql --version`
