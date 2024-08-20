@@ -4,4 +4,4 @@
 
 ### Install PHP
 
-1. Go to https://windows.php.net/download and download the latest VS16 x64 Non Thread Safe ZIP file.
+1. Go to [](https://windows.php.net/download) and download the latest **VS16 x64 Non Thread Safe** ZIP file.
