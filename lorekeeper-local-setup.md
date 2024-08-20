@@ -38,7 +38,7 @@
 
 3. Complete the MariaDB installation using default settings.
 
-    > **Important:** You will need the password of your root user for [setting up your database](), and the data directory for [setting your environment variables](#update-environment-variables).
+    > **Important:** You will need the password of your root user for [setting up your database](#create-database), and the data directory for [setting your environment variables](#update-environment-variables).
 
 ### Install Git
 
@@ -91,7 +91,7 @@
 
 5. Enter your database **Name** and select **OK**.
 
-    > **Important:** You will need the database name for your [Lorekeeper setup]().
+    > **Important:** You will need the database name for your [Lorekeeper setup](#configure-and-setup-lorekeeper).
 
 ### Clone Lorekeeper
 
